@@ -1,4 +1,4 @@
-package com.example.cicd_3;
+package com.example.cloud4cicd3;
 
 
 import org.springframework.stereotype.Controller;
