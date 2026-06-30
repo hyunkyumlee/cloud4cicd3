@@ -9,7 +9,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
 
     @ResponseBody
-    @GetMapping("/home")
+    @GetMapping("/hi")
+    public String  hi(){
+
+        return  "hi  cicd docker !!!  ^^^ !!! 0630 docker! java install ^^";
+    }
+
+    @ResponseBody
+    @GetMapping("/hi2")
     public String  hi(){
 
         return  "hi  cicd docker !!!  ^^^ !!! 0630 docker! java install ^^";
