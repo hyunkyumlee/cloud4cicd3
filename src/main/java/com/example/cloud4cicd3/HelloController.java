@@ -17,7 +17,7 @@ public class HelloController {
 
     @ResponseBody
     @GetMapping("/hi2")
-    public String  hi(){
+    public String  hi2(){
 
         return  "hi  cicd docker !!!  ^^^ !!! 0630 docker! java install ^^";
     }
